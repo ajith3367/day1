@@ -1,0 +1,47 @@
+//1.object key value backs:-
+
+//In JavaScript, objects are collections of key-value pairs, where each key is a unique identifier
+//for a specific value.
+//Key-Value Pairs in JavaScript Objects:
+//example for JavaScript object:
+
+// let person = {
+//   name: "John",
+//   age: 30,
+//   occupation: "Developer"
+// };
+
+// Frames:-
+
+// Globalframe
+// person
+
+// Objects:-
+
+// object
+// Name        "John"
+// age        30
+// occupation  "Developer"
+
+// 1.Key-Value Pairs for Array:-
+
+// Arrays in JavaScript are primarily designed to store ordered collections of values, each associated with an index.
+// Unlike objects, arrays do not have named keys; instead, they use numeric indices to access elements.
+// However, if you're looking to associate keys with values in the context of arrays, there are a few alternative approaches.
+
+// Frames:-
+// Global frame
+// keyValueArray
+
+// Objects:-
+// array:-
+// 0	1
+// "name"	"John"
+// array:-
+// 0	1
+// "age"	30
+// array:-
+// 0	1
+// "occupation"	"Developer"
+// array:-
+// 0	1	2

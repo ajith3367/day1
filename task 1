@@ -1,0 +1,39 @@
+HTTP1.1:-
+
+Introduction:
+In the realm of web development, the protocols that govern communication between clients and servers play a pivotal role in determining the efficiency and speed of data transfer. Two prominent versions of the Hypertext Transfer Protocol (HTTP) – HTTP/1.1
+
+1. Request Multiplexing:-
+   HTTP/1.1: In the HTTP/1.1 era, browsers would establish multiple connections to download resources in parallel. However, each connection could handle only one request at a time, leading to potential latency issues.
+
+2. Header Compression:-
+   HTTP/1.1: Headers, containing essential information about the request and response, were sent in plaintext. This verbosity resulted in increased overhead, especially on slower networks.
+
+3. Binary Protocol vs. Text Protocol:-
+   HTTP/1.1: The classic version relied on a text-based protocol, making it human-readable but less efficient for machines to process due to its verbose nature.
+
+4. Server Push:-
+   HTTP/1.1: The traditional model involves a client sending a request to the server, which responds with the requested resources. Proactive pushing of additional resources wasn't supported.
+
+5. Connection Handling:-
+   HTTP/1.1: Establishing and managing multiple connections for parallelism can be resource-intensive, especially with the limitations of traditional TCP connections.
+
+HTTP2:-
+
+Intruduction:-
+and HTTP/2 – stand as milestones in this evolutionary journey. In this blog, we'll explore the key differences between HTTP/1.1 and its successor, HTTP/2, and how the latter has revolutionized web communication.
+
+1 Request Multiplexing:
+HTTP/2: One of the groundbreaking features of HTTP/2 is request multiplexing. With this, multiple requests and responses can be sent concurrently over a single connection, significantly reducing latency and optimizing resource loading time
+
+2. Header Compression:
+   HTTP/2: HTTP/2 addresses this challenge with header compression. Headers are now encoded in a more efficient binary format, reducing the amount of data transferred and improving performance by minimizing overhead.
+
+3. Binary Protocol vs. Text Protocol:-
+   HTTP/2: HTTP/2 adopts a binary protocol, a more compact and machine-friendly format. This choice facilitates better compression, faster parsing, and overall improved data transfer efficiency.
+
+4. Server Push:-
+   HTTP/2: Server Push is a game-changer introduced in HTTP/2. It allows servers to push resources to the client's cache before the client requests them, minimizing round-trips and accelerating page loading.
+
+5. Connection Handling:-
+   HTTP/2: HTTP/2 simplifies this by allowing multiplexing and header compression over a single connection. This not only optimizes resource utilization but also reduces the need for multiple connections.
